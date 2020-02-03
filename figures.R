@@ -61,8 +61,7 @@ tm_scale_bar(position = c("left", 0.03), text.size = 0.7) +
 tm_layout(design.mode = F, legend.bg.color = "white",  
           legend.position = c("left", "top"), frame = F,
           inner.margins = c(0.01, 0.15, 0.01, 0),
-          outer.margins = 0, asp = 0, panel.show = T, 
-          panel.labels = "TITLE") 
+          outer.margins = 0, asp = 0) 
 
 # Save the map
 tmap_save(filename = "figs/figure1_prevmap.pdf", width = 7, height = 6.25)  
@@ -87,7 +86,8 @@ tm_scale_bar(position = c("right", "BOTTOM"), text.size = 0.7) +
 tm_layout(design.mode = F, legend.bg.color = "white",  
           legend.position = c("left", "bottom"), legend.frame = T,
           bg.color = "lightblue",
-          outer.margins = 0, asp = 0, panel.show = T, 
-          panel.labels = "TITLE") 
+          outer.margins = 0, asp = 0) 
 
 tmap_save(filename = "figs/figure1_prevmap_africa.pdf", width = 6)  
+
+# Version with COUNTRY background ----------------------------------------------
